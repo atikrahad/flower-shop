@@ -205,3 +205,14 @@ header{
    border-radius: 5px;
    color: white;
 }
+
+/* ----instragram csss*/
+
+.ins-pic{
+    display: flex;
+    margin: 0 170px 30px 170px;
+    gap: 20px;
+}
+.ins-pic img{
+    width: 240px;
+}
