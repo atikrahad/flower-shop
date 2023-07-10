@@ -20,7 +20,7 @@ nav h1{
     font-size: 35px;
     word-spacing: -7px;
 }
-nav span{
+span{
     color: rgba(0, 0, 0, 0.692);
     font-size: 30px
 }
@@ -167,4 +167,41 @@ header{
     justify-content: center;
     align-items: center;
     padding: 30px 0 0 0;
+}
+
+/* ----Hot deals css-------*/
+
+.hot-deals{
+    background-image: linear-gradient(rgba(229, 84, 115, 0.10),rgba(5, 151, 160, 0.15) );
+}
+.deal-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 200px;
+}
+.deals-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.deals-content h2{
+    padding-bottom: 20px;
+    font-size: 35px;
+    color: #E55473;
+}
+.deals-content p{
+    line-height: 30px;
+    color: rgba(39, 39, 39, 0.60);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.deals-content a{
+    padding: 8px 12px;
+   background-image: linear-gradient(to right, #E55473, #e5547398 ); 
+   text-decoration: none;
+   border-radius: 5px;
+   color: white;
 }
