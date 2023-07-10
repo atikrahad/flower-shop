@@ -211,8 +211,43 @@ header{
 .ins-pic{
     display: flex;
     margin: 0 170px 30px 170px;
-    gap: 20px;
+    gap: 18px;
 }
 .ins-pic img{
-    width: 240px;
+    width: 239px;
+    border-radius: 5px;
+}
+
+/* ----subscribe csss*/
+
+.subscribe{
+    margin: 80px 170px;
+    background-image: url("../Flower-Asset/Rectangle\ 9.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+.subscribe h1{
+    margin: 15px 0;
+
+}
+.subscribe p{
+    margin: 0px 0 15px 0;
+    color: #272727;
+}
+.membership input{
+    padding: 8px 12px;
+    margin:20px 0 30px 0;
+    width: 350px;
+}
+.subscribe button{
+    padding: 10px 14px;
+    background-color: #E55473;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
 }
