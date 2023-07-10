@@ -92,3 +92,54 @@ header{
     width: 431px;
     margin-left: 130px;
 }
+
+/* ==================================Main Section css============================*/
+
+/* --future css section   */
+.future{
+    padding: 40px 0 80px 0;
+}
+.title{
+    color: #272727;
+    text-align: center;
+    font-weight: 800;
+    font-size: 40px;
+    margin: 45px 0 20px 0;
+}
+.description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.future-flower{
+    margin: 0 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+}
+.flowers{
+    width: 400px;
+    height: 450px;
+    background-color: rgba(167, 33, 98, 0.15);
+    position: relative;
+    border-radius: 200px 200px 0 0;
+}
+.flowers img{
+    width: 300px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 20px;
+}
+.flowers p{
+    position: relative;
+    top: 480px;
+    text-decoration: underline;
+    color: rgba(37, 32, 34, 0.719);
+    font-weight: 500;
+    text-align: center;
+}
