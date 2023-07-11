@@ -1,0 +1,48 @@
+.login-form{
+    position: relative;
+    width: 40vw;
+    margin: auto;
+    height: 50vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.363),rgba(128, 128, 128, 0.418)), url("../Flower-Asset/pexels-roon-z-1083895.jpg");
+    background-size: cover;
+    top: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px 1px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form input{
+    width: 20vw;
+    padding: 8px 12px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    margin: 15px 0;
+    color: rgb(255, 255, 255);
+}
+form input::placeholder{
+    color: white;
+}
+form .btn{
+    border: none;
+
+}
+form .btn:hover{
+    background-color: #e55473a8;
+    border: none;
+}
+form p{
+    color: rgba(255, 255, 255, 0.685);
+}
+form a{
+    color: rgba(255, 255, 255, 0.623);
+    text-decoration: none;
+    margin: 5px 0;
+}
