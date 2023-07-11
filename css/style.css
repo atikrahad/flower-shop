@@ -70,7 +70,7 @@ header{
     justify-content: space-between;
 }
 .banner-content{
-    padding: 100px 50px 100px 0;
+    margin: 100px 600px 100px 0;
 }
 .banner-content h1{
     margin-bottom: 20px;
@@ -87,11 +87,15 @@ header{
     color: rgba(255, 255, 255, 0.856);
 }
 .banner-img{
-    position: relative;
+    height: 85vh;
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 .banner-img img{
-    width: 386px;
-    margin-left: 130px;
+    width: 420px;
+    height: 85vh;
+    padding: 0 160px;
 }
 
 /* ==================================Main Section css============================*/
@@ -199,6 +203,7 @@ header{
     color: rgba(39, 39, 39, 0.60);
     font-weight: 500;
     margin-bottom: 20px;
+    text-align: center;
 }
 .deals-content a{
     padding: 8px 12px;
