@@ -15,6 +15,9 @@ nav{
     align-items: center;
     height: 70px;
 }
+.bar{
+    display:none;
+}
 nav h1{
     color:#E55473;
     font-size: 35px;
@@ -290,4 +293,42 @@ footer h4{
 footer p{
     padding: 10px 0 40px 0;
     color: rgba(255, 255, 255, 0.418);
+}
+
+@media screen and (max-width: 576px) {
+    nav{
+        margin: 0 5px;
+        justify-content: space-between;
+    }
+    .bar{
+        display: contents;
+    }
+    nav ul{
+        display: none;
+    }
+    nav input{
+        width: 100px;
+    }
+    header{
+        height: auto;
+    }
+    .banner{
+        margin: 0px 5px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .banner-content{
+        margin:30px 5px;
+        height: 50%;
+    }
+    .banner-img{
+        height: 50%;
+        position: relative;
+    }
+    .banner-img img{
+        position: relative;
+        width: 100%;
+        padding: 20px 5px 0 5px;
+        top: 3px;
+    }
 }
