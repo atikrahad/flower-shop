@@ -72,6 +72,7 @@ header{
     margin: 12px 170px;
     display: flex;
     justify-content: space-between;
+    gap: 40px;
 }
 .banner-content{
     margin: 100px 600px 100px 0;
@@ -203,6 +204,7 @@ header{
     padding-bottom: 20px;
     font-size: 35px;
     color: #E55473;
+    text-align: center;
 }
 .deals-content p{
     line-height: 30px;
@@ -225,7 +227,6 @@ header{
     display: flex;
     margin: 0 170px 30px 170px;
     gap: 18px;
-    
 }
 .ins-pic img{
     width: 239px;
@@ -375,4 +376,58 @@ footer p{
     footer h4{
         padding: 10px 40px;
     }
+}
+@media screen and (min-width:576px) and (max-width: 990px) {
+    nav{
+        margin: 0 50px;
+        justify-content: space-between;
+    }
+    .bar{
+        display: contents;
+    }
+    nav ul{
+        display: none;
+    }
+    nav input{
+        width: 100px;
+    }
+    .banner{
+        margin: 12px 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .banner-content{
+        width: 50%;
+        margin: 20px;
+    }
+    .banner-img{
+    /* width: 50%; */
+
+    }
+    .banner-img img{
+    width: 40%;
+    padding:0 0px 0 400px;
+    }
+    .future-flower{
+        flex-direction: column;
+    }
+    .flowers{
+        margin:50px 0;
+    }
+    .delivery{
+        margin: 40px 50px;
+    } 
+    .deal-container{
+        padding: 0;
+    }
+    .ins-pic{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin: 50px;
+        justify-content: center;
+    }
+    .subscribe{
+        margin: 50px;
+    }
+
 }
