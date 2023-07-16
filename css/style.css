@@ -64,6 +64,7 @@ nav input{
 
 header{
     height: 100vh;
+    
     background-image: linear-gradient(rgba(5, 151, 160, 0.15),rgba(229, 84, 115, 0.10) );
     position: relative;
 }
@@ -166,11 +167,13 @@ header{
 .delivery{
     margin: 40px 170px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    gap: 20px;
     background-color: rgba(39, 39, 39, 0.05);
 }
 .dv{
+    width: 50%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -222,6 +225,7 @@ header{
     display: flex;
     margin: 0 170px 30px 170px;
     gap: 18px;
+    
 }
 .ins-pic img{
     width: 239px;
@@ -311,6 +315,7 @@ footer p{
     }
     header{
         height: auto;
+        width: auto;
     }
     .banner{
         margin: 0px 5px;
@@ -327,8 +332,47 @@ footer p{
     }
     .banner-img img{
         position: relative;
-        width: 100%;
+        width: 90%;
         padding: 20px 5px 0 5px;
         top: 3px;
+    }
+    .future-flower{
+        flex-direction: column;
+        margin: 0 5px;
+
+    }
+    .flowers{
+        margin: 40px 0;
+    }
+    .delivery{
+        margin: 40px 5px;
+        justify-content: space-between;
+    }
+    .deal-container{
+        flex-direction: column;
+        padding: 30px 0px;
+        text-align: center;
+    }
+    .ins-pic{
+        flex-direction: column;
+        margin: 30px 5px;
+        justify-content: center;
+        align-items: center;
+    }
+    .subscribe{
+        margin: 20px 5px;
+    }
+    .membership {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    footer h1{
+        padding: 40px 5px 20px 5px;
+    }
+    footer h4{
+        padding: 10px 40px;
     }
 }
