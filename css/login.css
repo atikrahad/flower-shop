@@ -46,3 +46,18 @@ form a{
     text-decoration: none;
     margin: 5px 0;
 }
+@media screen and (max-width: 576px) {
+    nav{
+        margin: 0 5px;
+        justify-content: space-between;
+    }
+    .bar{
+        display: contents;
+    }
+    nav ul{
+        display: none;
+    }
+    nav input{
+        width: 100px;
+    }
+}
